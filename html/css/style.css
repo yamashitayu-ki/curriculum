@@ -1,0 +1,50 @@
+.header {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+.main {
+  display: flex;
+  width: 400px;
+}
+
+.left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.up {
+  display: flex;
+}
+
+.yellow {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.blue {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.pink {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.red {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
