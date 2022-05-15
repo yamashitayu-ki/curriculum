@@ -12,13 +12,6 @@ $correct_port = $_POST['correct_port'];
 $correct_lang = $_POST['correct_lang'];
 $correct_com = $_POST['correct_com'];
 
-
-	//ラジオボタンから値が送信されたか判定
-	if( isset( $_POST["port"] )){
-		//メッセージ表示
-		echo "{$_POST["port"]}";
-	}
-
 //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
 function Judgement($select, $correct)
 {
